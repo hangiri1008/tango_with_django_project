@@ -2,8 +2,7 @@
 from __future__ import unicode_literals
 
 from django.contrib import admin
-from rango.models import Category, Page
-from rango.models import UserProfile
+from rango.models import Category, Page, UserProfile
 
 class PageAdmin(admin.ModelAdmin):
     list_display = ('title', 'category', 'url')
